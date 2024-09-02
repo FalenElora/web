@@ -1,0 +1,39 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  
+}
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+}
+#LoginForm{
+  
+  background: #f5f5f5;
+  padding: 3rem 2rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  
+}
+#LoginForm .username {
+  padding: 0.5rem;
+}
+#LoginForm .password {
+  padding: 0.5rem;
+}
+#LoginForm .btnlogin{
+  padding: .5rem 1.5rem;
+  margin-top: 1rem;
+  background-color: #666;
+  color: #ffff;
+  border-radius: .3rem;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+  
+}
+#LoginForm .btnlogin:hover{
+  color: #666;
+  background: none;
+}
